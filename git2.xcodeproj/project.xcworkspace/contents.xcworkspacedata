@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:git2-iOS.xcodeproj">
+      location = "self:/Users/phatblat/dev/libgit2/git2/git2.xcodeproj">
    </FileRef>
 </Workspace>
