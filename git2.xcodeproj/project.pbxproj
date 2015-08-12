@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F804BF431B7BD5AE00C40501 /* commit.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; };
+		F804BF441B7BD5AE00C40501 /* config.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; };
+		F804BF451B7BD5AE00C40501 /* diff.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; };
+		F804BF461B7BD5AE00C40501 /* filter.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; };
+		F804BF471B7BD5AE00C40501 /* hashsig.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; };
+		F804BF481B7BD5AE00C40501 /* index.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; };
+		F804BF491B7BD5AE00C40501 /* mempack.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; };
+		F804BF4A1B7BD5AE00C40501 /* odb_backend.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; };
+		F804BF4B1B7BD5AE00C40501 /* openssl.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; };
+		F804BF4C1B7BD5AE00C40501 /* refdb_backend.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; };
+		F804BF4D1B7BD5AE00C40501 /* reflog.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; };
+		F804BF4E1B7BD5AE00C40501 /* refs.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; };
+		F804BF4F1B7BD5AE00C40501 /* repository.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
+		F804BF501B7BD5AE00C40501 /* stream.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
+		F804BF511B7BD5AE00C40501 /* transport.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
 		F8D67E381B7BA85D00021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E371B7BA85D00021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67E471B7BAA4900021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E461B7BAA4900021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67E811B7BB79E00021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
@@ -130,6 +145,34 @@
 		F8D67F331B7BB7E800021BDF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F261B7BB7E800021BDF /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67F341B7BB7E800021BDF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F261B7BB7E800021BDF /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F804BF421B7BD4F800C40501 /* Copy git2/sys Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Headers/sys;
+			dstSubfolderSpec = 1;
+			files = (
+				F804BF431B7BD5AE00C40501 /* commit.h in Copy git2/sys Headers */,
+				F804BF441B7BD5AE00C40501 /* config.h in Copy git2/sys Headers */,
+				F804BF451B7BD5AE00C40501 /* diff.h in Copy git2/sys Headers */,
+				F804BF461B7BD5AE00C40501 /* filter.h in Copy git2/sys Headers */,
+				F804BF471B7BD5AE00C40501 /* hashsig.h in Copy git2/sys Headers */,
+				F804BF481B7BD5AE00C40501 /* index.h in Copy git2/sys Headers */,
+				F804BF491B7BD5AE00C40501 /* mempack.h in Copy git2/sys Headers */,
+				F804BF4A1B7BD5AE00C40501 /* odb_backend.h in Copy git2/sys Headers */,
+				F804BF4B1B7BD5AE00C40501 /* openssl.h in Copy git2/sys Headers */,
+				F804BF4C1B7BD5AE00C40501 /* refdb_backend.h in Copy git2/sys Headers */,
+				F804BF4D1B7BD5AE00C40501 /* reflog.h in Copy git2/sys Headers */,
+				F804BF4E1B7BD5AE00C40501 /* refs.h in Copy git2/sys Headers */,
+				F804BF4F1B7BD5AE00C40501 /* repository.h in Copy git2/sys Headers */,
+				F804BF501B7BD5AE00C40501 /* stream.h in Copy git2/sys Headers */,
+				F804BF511B7BD5AE00C40501 /* transport.h in Copy git2/sys Headers */,
+			);
+			name = "Copy git2/sys Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F8D67E341B7BA85D00021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -526,6 +569,7 @@
 				F8D67E301B7BA85D00021BDF /* Frameworks */,
 				F8D67E311B7BA85D00021BDF /* Headers */,
 				F8D67E321B7BA85D00021BDF /* Resources */,
+				F804BF421B7BD4F800C40501 /* Copy git2/sys Headers */,
 			);
 			buildRules = (
 			);
