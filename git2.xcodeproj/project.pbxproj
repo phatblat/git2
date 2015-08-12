@@ -568,8 +568,8 @@
 				F8D67E2F1B7BA85D00021BDF /* Sources */,
 				F8D67E301B7BA85D00021BDF /* Frameworks */,
 				F8D67E311B7BA85D00021BDF /* Headers */,
-				F8D67E321B7BA85D00021BDF /* Resources */,
 				F804BF421B7BD4F800C40501 /* Copy git2/sys Headers */,
+				F8D67E321B7BA85D00021BDF /* Resources */,
 			);
 			buildRules = (
 			);
