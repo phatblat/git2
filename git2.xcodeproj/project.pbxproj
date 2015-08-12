@@ -22,6 +22,21 @@
 		F804BF4F1B7BD5AE00C40501 /* repository.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
 		F804BF501B7BD5AE00C40501 /* stream.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
 		F804BF511B7BD5AE00C40501 /* transport.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
+		F804BF5B1B7BF15C00C40501 /* commit.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; };
+		F804BF5C1B7BF15C00C40501 /* config.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; };
+		F804BF5D1B7BF15C00C40501 /* diff.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; };
+		F804BF5E1B7BF15C00C40501 /* filter.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; };
+		F804BF5F1B7BF15C00C40501 /* hashsig.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; };
+		F804BF601B7BF15C00C40501 /* index.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; };
+		F804BF611B7BF15C00C40501 /* mempack.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; };
+		F804BF621B7BF15C00C40501 /* odb_backend.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; };
+		F804BF631B7BF15C00C40501 /* openssl.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; };
+		F804BF641B7BF15C00C40501 /* refdb_backend.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; };
+		F804BF651B7BF15C00C40501 /* reflog.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; };
+		F804BF661B7BF15C00C40501 /* refs.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; };
+		F804BF671B7BF15C00C40501 /* repository.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
+		F804BF681B7BF15C00C40501 /* stream.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
+		F804BF691B7BF15C00C40501 /* transport.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
 		F8D67E381B7BA85D00021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E371B7BA85D00021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67E471B7BAA4900021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E461B7BAA4900021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67E811B7BB79E00021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
@@ -168,6 +183,31 @@
 				F804BF4F1B7BD5AE00C40501 /* repository.h in Copy git2/sys Headers */,
 				F804BF501B7BD5AE00C40501 /* stream.h in Copy git2/sys Headers */,
 				F804BF511B7BD5AE00C40501 /* transport.h in Copy git2/sys Headers */,
+			);
+			name = "Copy git2/sys Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F804BF5A1B7BF12300C40501 /* Copy git2/sys Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Headers/sys;
+			dstSubfolderSpec = 1;
+			files = (
+				F804BF5B1B7BF15C00C40501 /* commit.h in Copy git2/sys Headers */,
+				F804BF5C1B7BF15C00C40501 /* config.h in Copy git2/sys Headers */,
+				F804BF5D1B7BF15C00C40501 /* diff.h in Copy git2/sys Headers */,
+				F804BF5E1B7BF15C00C40501 /* filter.h in Copy git2/sys Headers */,
+				F804BF5F1B7BF15C00C40501 /* hashsig.h in Copy git2/sys Headers */,
+				F804BF601B7BF15C00C40501 /* index.h in Copy git2/sys Headers */,
+				F804BF611B7BF15C00C40501 /* mempack.h in Copy git2/sys Headers */,
+				F804BF621B7BF15C00C40501 /* odb_backend.h in Copy git2/sys Headers */,
+				F804BF631B7BF15C00C40501 /* openssl.h in Copy git2/sys Headers */,
+				F804BF641B7BF15C00C40501 /* refdb_backend.h in Copy git2/sys Headers */,
+				F804BF651B7BF15C00C40501 /* reflog.h in Copy git2/sys Headers */,
+				F804BF661B7BF15C00C40501 /* refs.h in Copy git2/sys Headers */,
+				F804BF671B7BF15C00C40501 /* repository.h in Copy git2/sys Headers */,
+				F804BF681B7BF15C00C40501 /* stream.h in Copy git2/sys Headers */,
+				F804BF691B7BF15C00C40501 /* transport.h in Copy git2/sys Headers */,
 			);
 			name = "Copy git2/sys Headers";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +627,7 @@
 				F8D67E3F1B7BAA4900021BDF /* Sources */,
 				F8D67E401B7BAA4900021BDF /* Frameworks */,
 				F8D67E411B7BAA4900021BDF /* Headers */,
+				F804BF5A1B7BF12300C40501 /* Copy git2/sys Headers */,
 				F8D67E421B7BAA4900021BDF /* Resources */,
 			);
 			buildRules = (
