@@ -129,36 +129,6 @@
 		F8D67F321B7BB7E800021BDF /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F251B7BB7E800021BDF /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67F331B7BB7E800021BDF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F261B7BB7E800021BDF /* version.h */; };
 		F8D67F341B7BB7E800021BDF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F261B7BB7E800021BDF /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F451B7BB81100021BDF /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; };
-		F8D67F461B7BB81100021BDF /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F471B7BB81100021BDF /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; };
-		F8D67F481B7BB81100021BDF /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F491B7BB81100021BDF /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; };
-		F8D67F4A1B7BB81100021BDF /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F4B1B7BB81100021BDF /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; };
-		F8D67F4C1B7BB81100021BDF /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F4D1B7BB81100021BDF /* hashsig.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; };
-		F8D67F4E1B7BB81100021BDF /* hashsig.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F4F1B7BB81100021BDF /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; };
-		F8D67F501B7BB81100021BDF /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F511B7BB81100021BDF /* mempack.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; };
-		F8D67F521B7BB81100021BDF /* mempack.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F531B7BB81100021BDF /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; };
-		F8D67F541B7BB81100021BDF /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F551B7BB81100021BDF /* openssl.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; };
-		F8D67F561B7BB81100021BDF /* openssl.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F571B7BB81100021BDF /* refdb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; };
-		F8D67F581B7BB81100021BDF /* refdb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F591B7BB81100021BDF /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; };
-		F8D67F5A1B7BB81100021BDF /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F5B1B7BB81100021BDF /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; };
-		F8D67F5C1B7BB81100021BDF /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F5D1B7BB81100021BDF /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
-		F8D67F5E1B7BB81100021BDF /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F5F1B7BB81100021BDF /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
-		F8D67F601B7BB81100021BDF /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67F611B7BB81100021BDF /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
-		F8D67F621B7BB81100021BDF /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -414,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D67F271B7BB7E800021BDF /* tag.h in Headers */,
+				F8D67E811B7BB79E00021BDF /* git2.h in Headers */,
 				F8D67EF41B7BB7DA00021BDF /* oid.h in Headers */,
 				F8D67EE81B7BB7DA00021BDF /* message.h in Headers */,
 				F8D67EEC1B7BB7DA00021BDF /* notes.h in Headers */,
@@ -421,13 +392,9 @@
 				F8D67EEA1B7BB7DA00021BDF /* net.h in Headers */,
 				F8D67F021B7BB7DA00021BDF /* reflog.h in Headers */,
 				F8D67F0A1B7BB7DA00021BDF /* repository.h in Headers */,
-				F8D67F4D1B7BB81100021BDF /* hashsig.h in Headers */,
 				F8D67ED21B7BB7DA00021BDF /* describe.h in Headers */,
 				F8D67EDE1B7BB7DA00021BDF /* ignore.h in Headers */,
 				F8D67F0C1B7BB7DA00021BDF /* reset.h in Headers */,
-				F8D67F451B7BB81100021BDF /* commit.h in Headers */,
-				F8D67F531B7BB81100021BDF /* odb_backend.h in Headers */,
-				F8D67E811B7BB79E00021BDF /* git2.h in Headers */,
 				F8D67EEE1B7BB7DA00021BDF /* object.h in Headers */,
 				F8D67ED01B7BB7DA00021BDF /* cred_helpers.h in Headers */,
 				F8D67EC61B7BB7DA00021BDF /* cherrypick.h in Headers */,
@@ -435,7 +402,6 @@
 				F8D67F2B1B7BB7E800021BDF /* transaction.h in Headers */,
 				F8D67EE01B7BB7DA00021BDF /* index.h in Headers */,
 				F8D67F311B7BB7E800021BDF /* types.h in Headers */,
-				F8D67F471B7BB81100021BDF /* config.h in Headers */,
 				F8D67F101B7BB7DA00021BDF /* revparse.h in Headers */,
 				F8D67EFC1B7BB7DA00021BDF /* pathspec.h in Headers */,
 				F8D67F141B7BB7DA00021BDF /* signature.h in Headers */,
@@ -447,12 +413,10 @@
 				F8D67F181B7BB7DA00021BDF /* status.h in Headers */,
 				F8D67F2F1B7BB7E800021BDF /* tree.h in Headers */,
 				F8D67EC41B7BB7DA00021BDF /* checkout.h in Headers */,
-				F8D67F511B7BB81100021BDF /* mempack.h in Headers */,
 				F8D67EF81B7BB7DA00021BDF /* pack.h in Headers */,
 				F8D67F061B7BB7DA00021BDF /* refspec.h in Headers */,
 				F8D67ECC1B7BB7DA00021BDF /* common.h in Headers */,
 				F8D67ECE1B7BB7DA00021BDF /* config.h in Headers */,
-				F8D67F5F1B7BB81100021BDF /* stream.h in Headers */,
 				F8D67EDC1B7BB7DA00021BDF /* graph.h in Headers */,
 				F8D67EF21B7BB7DA00021BDF /* odb.h in Headers */,
 				F8D67EF01B7BB7DA00021BDF /* odb_backend.h in Headers */,
@@ -462,22 +426,14 @@
 				F8D67F001B7BB7DA00021BDF /* refdb.h in Headers */,
 				F8D67EBC1B7BB7DA00021BDF /* blame.h in Headers */,
 				F8D67EE21B7BB7DA00021BDF /* indexer.h in Headers */,
-				F8D67F5B1B7BB81100021BDF /* refs.h in Headers */,
 				F8D67EDA1B7BB7DA00021BDF /* global.h in Headers */,
 				F8D67ECA1B7BB7DA00021BDF /* commit.h in Headers */,
 				F8D67ED41B7BB7DA00021BDF /* diff.h in Headers */,
-				F8D67F4F1B7BB81100021BDF /* index.h in Headers */,
-				F8D67F611B7BB81100021BDF /* transport.h in Headers */,
-				F8D67F4B1B7BB81100021BDF /* filter.h in Headers */,
-				F8D67F591B7BB81100021BDF /* reflog.h in Headers */,
 				F8D67EC81B7BB7DA00021BDF /* clone.h in Headers */,
 				F8D67F291B7BB7E800021BDF /* trace.h in Headers */,
 				F8D67EE41B7BB7DA00021BDF /* inttypes.h in Headers */,
-				F8D67F571B7BB81100021BDF /* refdb_backend.h in Headers */,
 				F8D67EBA1B7BB7DA00021BDF /* attr.h in Headers */,
 				F8D67EE61B7BB7DA00021BDF /* merge.h in Headers */,
-				F8D67F491B7BB81100021BDF /* diff.h in Headers */,
-				F8D67F5D1B7BB81100021BDF /* repository.h in Headers */,
 				F8D67EBE1B7BB7DA00021BDF /* blob.h in Headers */,
 				F8D67EC01B7BB7DA00021BDF /* branch.h in Headers */,
 				F8D67F121B7BB7DA00021BDF /* revwalk.h in Headers */,
@@ -488,7 +444,6 @@
 				F8D67F331B7BB7E800021BDF /* version.h in Headers */,
 				F8D67ED61B7BB7DA00021BDF /* errors.h in Headers */,
 				F8D67ED81B7BB7DA00021BDF /* filter.h in Headers */,
-				F8D67F551B7BB81100021BDF /* openssl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,12 +462,9 @@
 				F8D67EEB1B7BB7DA00021BDF /* net.h in Headers */,
 				F8D67F031B7BB7DA00021BDF /* reflog.h in Headers */,
 				F8D67F0B1B7BB7DA00021BDF /* repository.h in Headers */,
-				F8D67F4E1B7BB81100021BDF /* hashsig.h in Headers */,
 				F8D67ED31B7BB7DA00021BDF /* describe.h in Headers */,
 				F8D67EDF1B7BB7DA00021BDF /* ignore.h in Headers */,
 				F8D67F0D1B7BB7DA00021BDF /* reset.h in Headers */,
-				F8D67F461B7BB81100021BDF /* commit.h in Headers */,
-				F8D67F541B7BB81100021BDF /* odb_backend.h in Headers */,
 				F8D67EEF1B7BB7DA00021BDF /* object.h in Headers */,
 				F8D67ED11B7BB7DA00021BDF /* cred_helpers.h in Headers */,
 				F8D67EC71B7BB7DA00021BDF /* cherrypick.h in Headers */,
@@ -520,7 +472,6 @@
 				F8D67F2C1B7BB7E800021BDF /* transaction.h in Headers */,
 				F8D67EE11B7BB7DA00021BDF /* index.h in Headers */,
 				F8D67F321B7BB7E800021BDF /* types.h in Headers */,
-				F8D67F481B7BB81100021BDF /* config.h in Headers */,
 				F8D67F111B7BB7DA00021BDF /* revparse.h in Headers */,
 				F8D67EFD1B7BB7DA00021BDF /* pathspec.h in Headers */,
 				F8D67F151B7BB7DA00021BDF /* signature.h in Headers */,
@@ -532,12 +483,10 @@
 				F8D67F191B7BB7DA00021BDF /* status.h in Headers */,
 				F8D67F301B7BB7E800021BDF /* tree.h in Headers */,
 				F8D67EC51B7BB7DA00021BDF /* checkout.h in Headers */,
-				F8D67F521B7BB81100021BDF /* mempack.h in Headers */,
 				F8D67EF91B7BB7DA00021BDF /* pack.h in Headers */,
 				F8D67F071B7BB7DA00021BDF /* refspec.h in Headers */,
 				F8D67ECD1B7BB7DA00021BDF /* common.h in Headers */,
 				F8D67ECF1B7BB7DA00021BDF /* config.h in Headers */,
-				F8D67F601B7BB81100021BDF /* stream.h in Headers */,
 				F8D67EDD1B7BB7DA00021BDF /* graph.h in Headers */,
 				F8D67EF31B7BB7DA00021BDF /* odb.h in Headers */,
 				F8D67EF11B7BB7DA00021BDF /* odb_backend.h in Headers */,
@@ -546,21 +495,13 @@
 				F8D67F011B7BB7DA00021BDF /* refdb.h in Headers */,
 				F8D67EBD1B7BB7DA00021BDF /* blame.h in Headers */,
 				F8D67EE31B7BB7DA00021BDF /* indexer.h in Headers */,
-				F8D67F5C1B7BB81100021BDF /* refs.h in Headers */,
 				F8D67EDB1B7BB7DA00021BDF /* global.h in Headers */,
 				F8D67ECB1B7BB7DA00021BDF /* commit.h in Headers */,
 				F8D67ED51B7BB7DA00021BDF /* diff.h in Headers */,
-				F8D67F501B7BB81100021BDF /* index.h in Headers */,
-				F8D67F621B7BB81100021BDF /* transport.h in Headers */,
-				F8D67F4C1B7BB81100021BDF /* filter.h in Headers */,
-				F8D67F5A1B7BB81100021BDF /* reflog.h in Headers */,
 				F8D67EC91B7BB7DA00021BDF /* clone.h in Headers */,
 				F8D67F2A1B7BB7E800021BDF /* trace.h in Headers */,
 				F8D67EE51B7BB7DA00021BDF /* inttypes.h in Headers */,
-				F8D67F581B7BB81100021BDF /* refdb_backend.h in Headers */,
 				F8D67EE71B7BB7DA00021BDF /* merge.h in Headers */,
-				F8D67F4A1B7BB81100021BDF /* diff.h in Headers */,
-				F8D67F5E1B7BB81100021BDF /* repository.h in Headers */,
 				F8D67EBF1B7BB7DA00021BDF /* blob.h in Headers */,
 				F8D67EC11B7BB7DA00021BDF /* branch.h in Headers */,
 				F8D67F131B7BB7DA00021BDF /* revwalk.h in Headers */,
@@ -571,7 +512,6 @@
 				F8D67F341B7BB7E800021BDF /* version.h in Headers */,
 				F8D67ED71B7BB7DA00021BDF /* errors.h in Headers */,
 				F8D67ED91B7BB7DA00021BDF /* filter.h in Headers */,
-				F8D67F561B7BB81100021BDF /* openssl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
