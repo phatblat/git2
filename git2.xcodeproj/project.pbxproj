@@ -7,36 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F804BF431B7BD5AE00C40501 /* commit.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; };
-		F804BF441B7BD5AE00C40501 /* config.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; };
-		F804BF451B7BD5AE00C40501 /* diff.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; };
-		F804BF461B7BD5AE00C40501 /* filter.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; };
-		F804BF471B7BD5AE00C40501 /* hashsig.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; };
-		F804BF481B7BD5AE00C40501 /* index.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; };
-		F804BF491B7BD5AE00C40501 /* mempack.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; };
-		F804BF4A1B7BD5AE00C40501 /* odb_backend.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; };
-		F804BF4B1B7BD5AE00C40501 /* openssl.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; };
-		F804BF4C1B7BD5AE00C40501 /* refdb_backend.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; };
-		F804BF4D1B7BD5AE00C40501 /* reflog.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; };
-		F804BF4E1B7BD5AE00C40501 /* refs.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; };
-		F804BF4F1B7BD5AE00C40501 /* repository.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
-		F804BF501B7BD5AE00C40501 /* stream.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
-		F804BF511B7BD5AE00C40501 /* transport.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
-		F804BF5B1B7BF15C00C40501 /* commit.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; };
-		F804BF5C1B7BF15C00C40501 /* config.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; };
-		F804BF5D1B7BF15C00C40501 /* diff.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; };
-		F804BF5E1B7BF15C00C40501 /* filter.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; };
-		F804BF5F1B7BF15C00C40501 /* hashsig.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; };
-		F804BF601B7BF15C00C40501 /* index.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; };
-		F804BF611B7BF15C00C40501 /* mempack.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; };
-		F804BF621B7BF15C00C40501 /* odb_backend.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; };
-		F804BF631B7BF15C00C40501 /* openssl.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; };
-		F804BF641B7BF15C00C40501 /* refdb_backend.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; };
-		F804BF651B7BF15C00C40501 /* reflog.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; };
-		F804BF661B7BF15C00C40501 /* refs.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; };
-		F804BF671B7BF15C00C40501 /* repository.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
-		F804BF681B7BF15C00C40501 /* stream.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
-		F804BF691B7BF15C00C40501 /* transport.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
 		F804C2221B7BF2CD00C40501 /* annotated_commit.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C10E1B7BF2CC00C40501 /* annotated_commit.c */; };
 		F804C2231B7BF2CD00C40501 /* annotated_commit.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C10E1B7BF2CC00C40501 /* annotated_commit.c */; };
 		F804C2241B7BF2CD00C40501 /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C10F1B7BF2CC00C40501 /* annotated_commit.h */; };
@@ -521,36 +491,9 @@
 		F804C43F1B7BF2FD00C40501 /* zstream.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C2211B7BF2CD00C40501 /* zstream.h */; };
 		F834882C1B7BF4D900A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
 		F834882D1B7BF4E100A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
-		F834882E1B7BF56C00A5B932 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; };
-		F834882F1B7BF56C00A5B932 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; };
-		F83488301B7BF56C00A5B932 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; };
-		F83488311B7BF56C00A5B932 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; };
-		F83488321B7BF56C00A5B932 /* hashsig.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; };
-		F83488331B7BF56C00A5B932 /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; };
-		F83488341B7BF56C00A5B932 /* mempack.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; };
-		F83488351B7BF56C00A5B932 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; };
-		F83488361B7BF56C00A5B932 /* openssl.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; };
-		F83488371B7BF56C00A5B932 /* refdb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; };
-		F83488381B7BF56C00A5B932 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; };
-		F83488391B7BF56C00A5B932 /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; };
-		F834883A1B7BF56C00A5B932 /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
-		F834883B1B7BF56C00A5B932 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
-		F834883C1B7BF56C00A5B932 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
-		F834883D1B7BF5BB00A5B932 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; };
-		F834883E1B7BF5BB00A5B932 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; };
-		F834883F1B7BF5BB00A5B932 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; };
-		F83488401B7BF5BB00A5B932 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; };
-		F83488411B7BF5BB00A5B932 /* hashsig.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; };
-		F83488421B7BF5BB00A5B932 /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; };
-		F83488431B7BF5BB00A5B932 /* mempack.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; };
-		F83488441B7BF5BB00A5B932 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; };
-		F83488451B7BF5BB00A5B932 /* openssl.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; };
-		F83488461B7BF5BB00A5B932 /* refdb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; };
-		F83488471B7BF5BB00A5B932 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; };
-		F83488481B7BF5BB00A5B932 /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; };
-		F83488491B7BF5BB00A5B932 /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
-		F834884A1B7BF5BB00A5B932 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
-		F834884B1B7BF5BB00A5B932 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
+		F834885E1B7BFC9800A5B932 /* sys in Resources */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; };
+		F834885F1B7BFCA600A5B932 /* sys in Headers */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; settings = {ATTRIBUTES = (Private, ); }; };
+		F83488601B7BFD4500A5B932 /* sys in Headers */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EB81B7BB7DA00021BDF /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E841B7BB7DA00021BDF /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EB91B7BB7DA00021BDF /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E841B7BB7DA00021BDF /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EBA1B7BB7DA00021BDF /* attr.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E851B7BB7DA00021BDF /* attr.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -666,59 +609,6 @@
 		F8D67F331B7BB7E800021BDF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F261B7BB7E800021BDF /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67F341B7BB7E800021BDF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F261B7BB7E800021BDF /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		F804BF421B7BD4F800C40501 /* Copy git2/sys Headers */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Headers/sys;
-			dstSubfolderSpec = 1;
-			files = (
-				F804BF431B7BD5AE00C40501 /* commit.h in Copy git2/sys Headers */,
-				F804BF441B7BD5AE00C40501 /* config.h in Copy git2/sys Headers */,
-				F804BF451B7BD5AE00C40501 /* diff.h in Copy git2/sys Headers */,
-				F804BF461B7BD5AE00C40501 /* filter.h in Copy git2/sys Headers */,
-				F804BF471B7BD5AE00C40501 /* hashsig.h in Copy git2/sys Headers */,
-				F804BF481B7BD5AE00C40501 /* index.h in Copy git2/sys Headers */,
-				F804BF491B7BD5AE00C40501 /* mempack.h in Copy git2/sys Headers */,
-				F804BF4A1B7BD5AE00C40501 /* odb_backend.h in Copy git2/sys Headers */,
-				F804BF4B1B7BD5AE00C40501 /* openssl.h in Copy git2/sys Headers */,
-				F804BF4C1B7BD5AE00C40501 /* refdb_backend.h in Copy git2/sys Headers */,
-				F804BF4D1B7BD5AE00C40501 /* reflog.h in Copy git2/sys Headers */,
-				F804BF4E1B7BD5AE00C40501 /* refs.h in Copy git2/sys Headers */,
-				F804BF4F1B7BD5AE00C40501 /* repository.h in Copy git2/sys Headers */,
-				F804BF501B7BD5AE00C40501 /* stream.h in Copy git2/sys Headers */,
-				F804BF511B7BD5AE00C40501 /* transport.h in Copy git2/sys Headers */,
-			);
-			name = "Copy git2/sys Headers";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F804BF5A1B7BF12300C40501 /* Copy git2/sys Headers */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Headers/sys;
-			dstSubfolderSpec = 1;
-			files = (
-				F804BF5B1B7BF15C00C40501 /* commit.h in Copy git2/sys Headers */,
-				F804BF5C1B7BF15C00C40501 /* config.h in Copy git2/sys Headers */,
-				F804BF5D1B7BF15C00C40501 /* diff.h in Copy git2/sys Headers */,
-				F804BF5E1B7BF15C00C40501 /* filter.h in Copy git2/sys Headers */,
-				F804BF5F1B7BF15C00C40501 /* hashsig.h in Copy git2/sys Headers */,
-				F804BF601B7BF15C00C40501 /* index.h in Copy git2/sys Headers */,
-				F804BF611B7BF15C00C40501 /* mempack.h in Copy git2/sys Headers */,
-				F804BF621B7BF15C00C40501 /* odb_backend.h in Copy git2/sys Headers */,
-				F804BF631B7BF15C00C40501 /* openssl.h in Copy git2/sys Headers */,
-				F804BF641B7BF15C00C40501 /* refdb_backend.h in Copy git2/sys Headers */,
-				F804BF651B7BF15C00C40501 /* reflog.h in Copy git2/sys Headers */,
-				F804BF661B7BF15C00C40501 /* refs.h in Copy git2/sys Headers */,
-				F804BF671B7BF15C00C40501 /* repository.h in Copy git2/sys Headers */,
-				F804BF681B7BF15C00C40501 /* stream.h in Copy git2/sys Headers */,
-				F804BF691B7BF15C00C40501 /* transport.h in Copy git2/sys Headers */,
-			);
-			name = "Copy git2/sys Headers";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F804C10E1B7BF2CC00C40501 /* annotated_commit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = annotated_commit.c; sourceTree = "<group>"; };
@@ -962,11 +852,10 @@
 		F804C21F1B7BF2CD00C40501 /* xutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xutils.h; sourceTree = "<group>"; };
 		F804C2201B7BF2CD00C40501 /* zstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstream.c; sourceTree = "<group>"; };
 		F804C2211B7BF2CD00C40501 /* zstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstream.h; sourceTree = "<group>"; };
+		F834885C1B7BFC9800A5B932 /* sys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sys; path = libgit2/include/git2/sys; sourceTree = "<group>"; };
+		F83488611B7BFDD400A5B932 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8D67E341B7BA85D00021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8D67E371B7BA85D00021BDF /* git2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = git2.h; sourceTree = "<group>"; };
-		F8D67E391B7BA85D00021BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8D67E441B7BAA4900021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8D67E461B7BAA4900021BDF /* git2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = git2.h; sourceTree = "<group>"; };
 		F8D67E481B7BAA4900021BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8D67E7E1B7BB79E00021BDF /* git2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = git2.h; path = libgit2/include/git2.h; sourceTree = "<group>"; };
 		F8D67E841B7BB7DA00021BDF /* annotated_commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = annotated_commit.h; path = libgit2/include/git2/annotated_commit.h; sourceTree = "<group>"; };
@@ -1026,21 +915,6 @@
 		F8D67F241B7BB7E800021BDF /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tree.h; path = libgit2/include/git2/tree.h; sourceTree = "<group>"; };
 		F8D67F251B7BB7E800021BDF /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = libgit2/include/git2/types.h; sourceTree = "<group>"; };
 		F8D67F261B7BB7E800021BDF /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = libgit2/include/git2/version.h; sourceTree = "<group>"; };
-		F8D67F361B7BB81100021BDF /* commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commit.h; path = libgit2/include/git2/sys/commit.h; sourceTree = "<group>"; };
-		F8D67F371B7BB81100021BDF /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = libgit2/include/git2/sys/config.h; sourceTree = "<group>"; };
-		F8D67F381B7BB81100021BDF /* diff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diff.h; path = libgit2/include/git2/sys/diff.h; sourceTree = "<group>"; };
-		F8D67F391B7BB81100021BDF /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filter.h; path = libgit2/include/git2/sys/filter.h; sourceTree = "<group>"; };
-		F8D67F3A1B7BB81100021BDF /* hashsig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hashsig.h; path = libgit2/include/git2/sys/hashsig.h; sourceTree = "<group>"; };
-		F8D67F3B1B7BB81100021BDF /* index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = index.h; path = libgit2/include/git2/sys/index.h; sourceTree = "<group>"; };
-		F8D67F3C1B7BB81100021BDF /* mempack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mempack.h; path = libgit2/include/git2/sys/mempack.h; sourceTree = "<group>"; };
-		F8D67F3D1B7BB81100021BDF /* odb_backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = odb_backend.h; path = libgit2/include/git2/sys/odb_backend.h; sourceTree = "<group>"; };
-		F8D67F3E1B7BB81100021BDF /* openssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = openssl.h; path = libgit2/include/git2/sys/openssl.h; sourceTree = "<group>"; };
-		F8D67F3F1B7BB81100021BDF /* refdb_backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = refdb_backend.h; path = libgit2/include/git2/sys/refdb_backend.h; sourceTree = "<group>"; };
-		F8D67F401B7BB81100021BDF /* reflog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reflog.h; path = libgit2/include/git2/sys/reflog.h; sourceTree = "<group>"; };
-		F8D67F411B7BB81100021BDF /* refs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = refs.h; path = libgit2/include/git2/sys/refs.h; sourceTree = "<group>"; };
-		F8D67F421B7BB81100021BDF /* repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = repository.h; path = libgit2/include/git2/sys/repository.h; sourceTree = "<group>"; };
-		F8D67F431B7BB81100021BDF /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stream.h; path = libgit2/include/git2/sys/stream.h; sourceTree = "<group>"; };
-		F8D67F441B7BB81100021BDF /* transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transport.h; path = libgit2/include/git2/sys/transport.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1364,8 +1238,7 @@
 		F8D67E361B7BA85D00021BDF /* git2-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F8D67E371B7BA85D00021BDF /* git2.h */,
-				F8D67E391B7BA85D00021BDF /* Info.plist */,
+				F83488611B7BFDD400A5B932 /* Info.plist */,
 			);
 			path = "git2-iOS";
 			sourceTree = "<group>";
@@ -1373,7 +1246,6 @@
 		F8D67E451B7BAA4900021BDF /* git2-Mac */ = {
 			isa = PBXGroup;
 			children = (
-				F8D67E461B7BAA4900021BDF /* git2.h */,
 				F8D67E481B7BAA4900021BDF /* Info.plist */,
 			);
 			path = "git2-Mac";
@@ -1400,6 +1272,7 @@
 		F8D67E831B7BB7C900021BDF /* git2 */ = {
 			isa = PBXGroup;
 			children = (
+				F834885C1B7BFC9800A5B932 /* sys */,
 				F8D67E841B7BB7DA00021BDF /* annotated_commit.h */,
 				F8D67E851B7BB7DA00021BDF /* attr.h */,
 				F8D67E861B7BB7DA00021BDF /* blame.h */,
@@ -1449,7 +1322,6 @@
 				F8D67EB31B7BB7DA00021BDF /* stash.h */,
 				F8D67EB41B7BB7DA00021BDF /* status.h */,
 				F8D67EB61B7BB7DA00021BDF /* strarray.h */,
-				F8D67F351B7BB7EF00021BDF /* sys */,
 				F8D67EB71B7BB7DA00021BDF /* submodule.h */,
 				F8D67F201B7BB7E800021BDF /* tag.h */,
 				F8D67F211B7BB7E800021BDF /* trace.h */,
@@ -1460,28 +1332,6 @@
 				F8D67F261B7BB7E800021BDF /* version.h */,
 			);
 			name = git2;
-			sourceTree = "<group>";
-		};
-		F8D67F351B7BB7EF00021BDF /* sys */ = {
-			isa = PBXGroup;
-			children = (
-				F8D67F361B7BB81100021BDF /* commit.h */,
-				F8D67F371B7BB81100021BDF /* config.h */,
-				F8D67F381B7BB81100021BDF /* diff.h */,
-				F8D67F391B7BB81100021BDF /* filter.h */,
-				F8D67F3A1B7BB81100021BDF /* hashsig.h */,
-				F8D67F3B1B7BB81100021BDF /* index.h */,
-				F8D67F3C1B7BB81100021BDF /* mempack.h */,
-				F8D67F3D1B7BB81100021BDF /* odb_backend.h */,
-				F8D67F3E1B7BB81100021BDF /* openssl.h */,
-				F8D67F3F1B7BB81100021BDF /* refdb_backend.h */,
-				F8D67F401B7BB81100021BDF /* reflog.h */,
-				F8D67F411B7BB81100021BDF /* refs.h */,
-				F8D67F421B7BB81100021BDF /* repository.h */,
-				F8D67F431B7BB81100021BDF /* stream.h */,
-				F8D67F441B7BB81100021BDF /* transport.h */,
-			);
-			name = sys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1548,21 +1398,7 @@
 				F804C2CC1B7BF2D000C40501 /* hash.h in Headers */,
 				F804C25C1B7BF2CD00C40501 /* clone.h in Headers */,
 				F8D67EDA1B7BB7DA00021BDF /* global.h in Headers */,
-				F834882E1B7BF56C00A5B932 /* commit.h in Headers */,
-				F834882F1B7BF56C00A5B932 /* config.h in Headers */,
-				F83488301B7BF56C00A5B932 /* diff.h in Headers */,
-				F83488311B7BF56C00A5B932 /* filter.h in Headers */,
-				F83488321B7BF56C00A5B932 /* hashsig.h in Headers */,
-				F83488331B7BF56C00A5B932 /* index.h in Headers */,
-				F83488341B7BF56C00A5B932 /* mempack.h in Headers */,
-				F83488351B7BF56C00A5B932 /* odb_backend.h in Headers */,
-				F83488361B7BF56C00A5B932 /* openssl.h in Headers */,
-				F83488371B7BF56C00A5B932 /* refdb_backend.h in Headers */,
-				F83488381B7BF56C00A5B932 /* reflog.h in Headers */,
-				F83488391B7BF56C00A5B932 /* refs.h in Headers */,
-				F834883A1B7BF56C00A5B932 /* repository.h in Headers */,
-				F834883B1B7BF56C00A5B932 /* stream.h in Headers */,
-				F834883C1B7BF56C00A5B932 /* transport.h in Headers */,
+				F834885F1B7BFCA600A5B932 /* sys in Headers */,
 				F804C3961B7BF2DC00C40501 /* tag.h in Headers */,
 				F804C3201B7BF2D300C40501 /* pack-objects.h in Headers */,
 				F804C2FC1B7BF2D100C40501 /* notes.h in Headers */,
@@ -1682,6 +1518,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83488601B7BFD4500A5B932 /* sys in Headers */,
 				F804C3431B7BF2D500C40501 /* refdb.h in Headers */,
 				F804C4371B7BF2FB00C40501 /* xtypes.h in Headers */,
 				F804C2C91B7BF2CF00C40501 /* hash_win32.h in Headers */,
@@ -1739,21 +1576,6 @@
 				F804C2CD1B7BF2D000C40501 /* hash.h in Headers */,
 				F804C25D1B7BF2CD00C40501 /* clone.h in Headers */,
 				F8D67EE11B7BB7DA00021BDF /* index.h in Headers */,
-				F834883D1B7BF5BB00A5B932 /* commit.h in Headers */,
-				F834883E1B7BF5BB00A5B932 /* config.h in Headers */,
-				F834883F1B7BF5BB00A5B932 /* diff.h in Headers */,
-				F83488401B7BF5BB00A5B932 /* filter.h in Headers */,
-				F83488411B7BF5BB00A5B932 /* hashsig.h in Headers */,
-				F83488421B7BF5BB00A5B932 /* index.h in Headers */,
-				F83488431B7BF5BB00A5B932 /* mempack.h in Headers */,
-				F83488441B7BF5BB00A5B932 /* odb_backend.h in Headers */,
-				F83488451B7BF5BB00A5B932 /* openssl.h in Headers */,
-				F83488461B7BF5BB00A5B932 /* refdb_backend.h in Headers */,
-				F83488471B7BF5BB00A5B932 /* reflog.h in Headers */,
-				F83488481B7BF5BB00A5B932 /* refs.h in Headers */,
-				F83488491B7BF5BB00A5B932 /* repository.h in Headers */,
-				F834884A1B7BF5BB00A5B932 /* stream.h in Headers */,
-				F834884B1B7BF5BB00A5B932 /* transport.h in Headers */,
 				F804C3971B7BF2DC00C40501 /* tag.h in Headers */,
 				F804C3211B7BF2D300C40501 /* pack-objects.h in Headers */,
 				F804C2FD1B7BF2D100C40501 /* notes.h in Headers */,
@@ -1879,7 +1701,6 @@
 				F8D67E2F1B7BA85D00021BDF /* Sources */,
 				F8D67E301B7BA85D00021BDF /* Frameworks */,
 				F8D67E311B7BA85D00021BDF /* Headers */,
-				F804BF421B7BD4F800C40501 /* Copy git2/sys Headers */,
 				F8D67E321B7BA85D00021BDF /* Resources */,
 			);
 			buildRules = (
@@ -1898,7 +1719,6 @@
 				F8D67E3F1B7BAA4900021BDF /* Sources */,
 				F8D67E401B7BAA4900021BDF /* Frameworks */,
 				F8D67E411B7BAA4900021BDF /* Headers */,
-				F804BF5A1B7BF12300C40501 /* Copy git2/sys Headers */,
 				F8D67E421B7BAA4900021BDF /* Resources */,
 			);
 			buildRules = (
@@ -1957,6 +1777,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F834885E1B7BFC9800A5B932 /* sys in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2282,6 +2103,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2322,6 +2144,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2341,6 +2164,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-iOS";
 				PRODUCT_NAME = git2;
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -2357,6 +2181,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-iOS";
 				PRODUCT_NAME = git2;
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
