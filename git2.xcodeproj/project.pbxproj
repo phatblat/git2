@@ -39,8 +39,6 @@
 		F804BF691B7BF15C00C40501 /* transport.h in Copy git2/sys Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
 		F8D67E381B7BA85D00021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E371B7BA85D00021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67E471B7BAA4900021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E461B7BAA4900021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67E811B7BB79E00021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
-		F8D67E821B7BB79E00021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EB81B7BB7DA00021BDF /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E841B7BB7DA00021BDF /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EB91B7BB7DA00021BDF /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E841B7BB7DA00021BDF /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EBA1B7BB7DA00021BDF /* attr.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E851B7BB7DA00021BDF /* attr.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -492,7 +490,6 @@
 				F8D67EE41B7BB7DA00021BDF /* inttypes.h in Headers */,
 				F8D67EE61B7BB7DA00021BDF /* merge.h in Headers */,
 				F8D67EE81B7BB7DA00021BDF /* message.h in Headers */,
-				F8D67E811B7BB79E00021BDF /* git2.h in Headers */,
 				F8D67EEA1B7BB7DA00021BDF /* net.h in Headers */,
 				F8D67EEC1B7BB7DA00021BDF /* notes.h in Headers */,
 				F8D67EEE1B7BB7DA00021BDF /* object.h in Headers */,
@@ -535,7 +532,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D67E471B7BAA4900021BDF /* git2.h in Headers */,
-				F8D67E821B7BB79E00021BDF /* git2.h in Headers */,
 				F8D67EBB1B7BB7DA00021BDF /* attr.h in Headers */,
 				F8D67F281B7BB7E800021BDF /* tag.h in Headers */,
 				F8D67EF51B7BB7DA00021BDF /* oid.h in Headers */,
