@@ -12,10 +12,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F8D67E341B7BA85D00021BDF /* git2-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "git2-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D67E341B7BA85D00021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D67E371B7BA85D00021BDF /* git2-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "git2-iOS.h"; sourceTree = "<group>"; };
 		F8D67E391B7BA85D00021BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8D67E441B7BAA4900021BDF /* git2-Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "git2-Mac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D67E441B7BAA4900021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D67E461B7BAA4900021BDF /* git2-Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "git2-Mac.h"; sourceTree = "<group>"; };
 		F8D67E481B7BAA4900021BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,8 +50,8 @@
 		F8D67E351B7BA85D00021BDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8D67E341B7BA85D00021BDF /* git2-iOS.framework */,
-				F8D67E441B7BAA4900021BDF /* git2-Mac.framework */,
+				F8D67E341B7BA85D00021BDF /* git2.framework */,
+				F8D67E441B7BAA4900021BDF /* git2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +111,7 @@
 			);
 			name = "git2-iOS";
 			productName = "git2-iOS";
-			productReference = F8D67E341B7BA85D00021BDF /* git2-iOS.framework */;
+			productReference = F8D67E341B7BA85D00021BDF /* git2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F8D67E431B7BAA4900021BDF /* git2-Mac */ = {
@@ -129,7 +129,7 @@
 			);
 			name = "git2-Mac";
 			productName = "git2-Mac";
-			productReference = F8D67E441B7BAA4900021BDF /* git2-Mac.framework */;
+			productReference = F8D67E441B7BAA4900021BDF /* git2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -301,7 +301,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = git2;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -317,7 +317,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = git2;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -336,7 +336,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = git2;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -356,7 +356,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = git2;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -390,6 +390,7 @@
 				F8D67E4B1B7BAA4900021BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
