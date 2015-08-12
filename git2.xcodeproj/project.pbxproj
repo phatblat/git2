@@ -854,6 +854,7 @@
 		F804C2211B7BF2CD00C40501 /* zstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstream.h; sourceTree = "<group>"; };
 		F834885C1B7BFC9800A5B932 /* sys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sys; path = libgit2/include/git2/sys; sourceTree = "<group>"; };
 		F83488611B7BFDD400A5B932 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83488641B7BFF7200A5B932 /* git2.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = git2.modulemap; sourceTree = "<group>"; };
 		F8D67E341B7BA85D00021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D67E441B7BAA4900021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D67E481B7BAA4900021BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1219,6 +1220,7 @@
 		F8D67E2A1B7BA85D00021BDF = {
 			isa = PBXGroup;
 			children = (
+				F83488641B7BFF7200A5B932 /* git2.modulemap */,
 				F8D67E361B7BA85D00021BDF /* git2-iOS */,
 				F8D67E451B7BAA4900021BDF /* git2-Mac */,
 				F8D67E7B1B7BB78200021BDF /* libgit2 */,
@@ -2161,6 +2163,7 @@
 				INFOPLIST_FILE = "git2-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = git2.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-iOS";
 				PRODUCT_NAME = git2;
 				SKIP_INSTALL = YES;
@@ -2178,6 +2181,7 @@
 				INFOPLIST_FILE = "git2-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = git2.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-iOS";
 				PRODUCT_NAME = git2;
 				SKIP_INSTALL = YES;
@@ -2198,6 +2202,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = git2.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-Mac";
 				PRODUCT_NAME = git2;
 				SDKROOT = macosx;
@@ -2218,6 +2223,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = git2.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-Mac";
 				PRODUCT_NAME = git2;
 				SDKROOT = macosx;
