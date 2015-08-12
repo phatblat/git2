@@ -519,8 +519,38 @@
 		F804C43D1B7BF2FD00C40501 /* zstream.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C2201B7BF2CD00C40501 /* zstream.c */; };
 		F804C43E1B7BF2FD00C40501 /* zstream.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C2211B7BF2CD00C40501 /* zstream.h */; };
 		F804C43F1B7BF2FD00C40501 /* zstream.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C2211B7BF2CD00C40501 /* zstream.h */; };
-		F8D67E381B7BA85D00021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E371B7BA85D00021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67E471B7BAA4900021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E461B7BAA4900021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F834882C1B7BF4D900A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
+		F834882D1B7BF4E100A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
+		F834882E1B7BF56C00A5B932 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; };
+		F834882F1B7BF56C00A5B932 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; };
+		F83488301B7BF56C00A5B932 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; };
+		F83488311B7BF56C00A5B932 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; };
+		F83488321B7BF56C00A5B932 /* hashsig.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; };
+		F83488331B7BF56C00A5B932 /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; };
+		F83488341B7BF56C00A5B932 /* mempack.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; };
+		F83488351B7BF56C00A5B932 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; };
+		F83488361B7BF56C00A5B932 /* openssl.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; };
+		F83488371B7BF56C00A5B932 /* refdb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; };
+		F83488381B7BF56C00A5B932 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; };
+		F83488391B7BF56C00A5B932 /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; };
+		F834883A1B7BF56C00A5B932 /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
+		F834883B1B7BF56C00A5B932 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
+		F834883C1B7BF56C00A5B932 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
+		F834883D1B7BF5BB00A5B932 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F361B7BB81100021BDF /* commit.h */; };
+		F834883E1B7BF5BB00A5B932 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F371B7BB81100021BDF /* config.h */; };
+		F834883F1B7BF5BB00A5B932 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F381B7BB81100021BDF /* diff.h */; };
+		F83488401B7BF5BB00A5B932 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F391B7BB81100021BDF /* filter.h */; };
+		F83488411B7BF5BB00A5B932 /* hashsig.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3A1B7BB81100021BDF /* hashsig.h */; };
+		F83488421B7BF5BB00A5B932 /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3B1B7BB81100021BDF /* index.h */; };
+		F83488431B7BF5BB00A5B932 /* mempack.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3C1B7BB81100021BDF /* mempack.h */; };
+		F83488441B7BF5BB00A5B932 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3D1B7BB81100021BDF /* odb_backend.h */; };
+		F83488451B7BF5BB00A5B932 /* openssl.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3E1B7BB81100021BDF /* openssl.h */; };
+		F83488461B7BF5BB00A5B932 /* refdb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F3F1B7BB81100021BDF /* refdb_backend.h */; };
+		F83488471B7BF5BB00A5B932 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F401B7BB81100021BDF /* reflog.h */; };
+		F83488481B7BF5BB00A5B932 /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F411B7BB81100021BDF /* refs.h */; };
+		F83488491B7BF5BB00A5B932 /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F421B7BB81100021BDF /* repository.h */; };
+		F834884A1B7BF5BB00A5B932 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F431B7BB81100021BDF /* stream.h */; };
+		F834884B1B7BF5BB00A5B932 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F441B7BB81100021BDF /* transport.h */; };
 		F8D67EB81B7BB7DA00021BDF /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E841B7BB7DA00021BDF /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EB91B7BB7DA00021BDF /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E841B7BB7DA00021BDF /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EBA1B7BB7DA00021BDF /* attr.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E851B7BB7DA00021BDF /* attr.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1464,7 +1494,6 @@
 				F804C3421B7BF2D500C40501 /* refdb.h in Headers */,
 				F804C4361B7BF2FB00C40501 /* xtypes.h in Headers */,
 				F804C2C81B7BF2CF00C40501 /* hash_win32.h in Headers */,
-				F8D67E381B7BA85D00021BDF /* git2.h in Headers */,
 				F804C3061B7BF2D200C40501 /* odb.h in Headers */,
 				F804C43A1B7BF2FC00C40501 /* xutils.h in Headers */,
 				F804C2E01B7BF2D000C40501 /* iterator.h in Headers */,
@@ -1519,6 +1548,21 @@
 				F804C2CC1B7BF2D000C40501 /* hash.h in Headers */,
 				F804C25C1B7BF2CD00C40501 /* clone.h in Headers */,
 				F8D67EDA1B7BB7DA00021BDF /* global.h in Headers */,
+				F834882E1B7BF56C00A5B932 /* commit.h in Headers */,
+				F834882F1B7BF56C00A5B932 /* config.h in Headers */,
+				F83488301B7BF56C00A5B932 /* diff.h in Headers */,
+				F83488311B7BF56C00A5B932 /* filter.h in Headers */,
+				F83488321B7BF56C00A5B932 /* hashsig.h in Headers */,
+				F83488331B7BF56C00A5B932 /* index.h in Headers */,
+				F83488341B7BF56C00A5B932 /* mempack.h in Headers */,
+				F83488351B7BF56C00A5B932 /* odb_backend.h in Headers */,
+				F83488361B7BF56C00A5B932 /* openssl.h in Headers */,
+				F83488371B7BF56C00A5B932 /* refdb_backend.h in Headers */,
+				F83488381B7BF56C00A5B932 /* reflog.h in Headers */,
+				F83488391B7BF56C00A5B932 /* refs.h in Headers */,
+				F834883A1B7BF56C00A5B932 /* repository.h in Headers */,
+				F834883B1B7BF56C00A5B932 /* stream.h in Headers */,
+				F834883C1B7BF56C00A5B932 /* transport.h in Headers */,
 				F804C3961B7BF2DC00C40501 /* tag.h in Headers */,
 				F804C3201B7BF2D300C40501 /* pack-objects.h in Headers */,
 				F804C2FC1B7BF2D100C40501 /* notes.h in Headers */,
@@ -1551,6 +1595,7 @@
 				F804C2C41B7BF2CF00C40501 /* hash_openssl.h in Headers */,
 				F8D67EF01B7BB7DA00021BDF /* odb_backend.h in Headers */,
 				F804C2E81B7BF2D100C40501 /* merge.h in Headers */,
+				F834882D1B7BF4E100A5B932 /* git2.h in Headers */,
 				F804C3E01B7BF2E500C40501 /* vector.h in Headers */,
 				F8D67EF41B7BB7DA00021BDF /* oid.h in Headers */,
 				F804C2F01B7BF2D100C40501 /* message.h in Headers */,
@@ -1640,7 +1685,6 @@
 				F804C3431B7BF2D500C40501 /* refdb.h in Headers */,
 				F804C4371B7BF2FB00C40501 /* xtypes.h in Headers */,
 				F804C2C91B7BF2CF00C40501 /* hash_win32.h in Headers */,
-				F8D67E471B7BAA4900021BDF /* git2.h in Headers */,
 				F804C3071B7BF2D200C40501 /* odb.h in Headers */,
 				F804C43B1B7BF2FC00C40501 /* xutils.h in Headers */,
 				F804C2E11B7BF2D000C40501 /* iterator.h in Headers */,
@@ -1695,6 +1739,21 @@
 				F804C2CD1B7BF2D000C40501 /* hash.h in Headers */,
 				F804C25D1B7BF2CD00C40501 /* clone.h in Headers */,
 				F8D67EE11B7BB7DA00021BDF /* index.h in Headers */,
+				F834883D1B7BF5BB00A5B932 /* commit.h in Headers */,
+				F834883E1B7BF5BB00A5B932 /* config.h in Headers */,
+				F834883F1B7BF5BB00A5B932 /* diff.h in Headers */,
+				F83488401B7BF5BB00A5B932 /* filter.h in Headers */,
+				F83488411B7BF5BB00A5B932 /* hashsig.h in Headers */,
+				F83488421B7BF5BB00A5B932 /* index.h in Headers */,
+				F83488431B7BF5BB00A5B932 /* mempack.h in Headers */,
+				F83488441B7BF5BB00A5B932 /* odb_backend.h in Headers */,
+				F83488451B7BF5BB00A5B932 /* openssl.h in Headers */,
+				F83488461B7BF5BB00A5B932 /* refdb_backend.h in Headers */,
+				F83488471B7BF5BB00A5B932 /* reflog.h in Headers */,
+				F83488481B7BF5BB00A5B932 /* refs.h in Headers */,
+				F83488491B7BF5BB00A5B932 /* repository.h in Headers */,
+				F834884A1B7BF5BB00A5B932 /* stream.h in Headers */,
+				F834884B1B7BF5BB00A5B932 /* transport.h in Headers */,
 				F804C3971B7BF2DC00C40501 /* tag.h in Headers */,
 				F804C3211B7BF2D300C40501 /* pack-objects.h in Headers */,
 				F804C2FD1B7BF2D100C40501 /* notes.h in Headers */,
@@ -1759,6 +1818,7 @@
 				F804C3A31B7BF2DD00C40501 /* trace.h in Headers */,
 				F8D67EBD1B7BB7DA00021BDF /* blame.h in Headers */,
 				F804C3591B7BF2D600C40501 /* repo_template.h in Headers */,
+				F834882C1B7BF4D900A5B932 /* git2.h in Headers */,
 				F8D67EE31B7BB7DA00021BDF /* indexer.h in Headers */,
 				F804C33D1B7BF2D400C40501 /* push.h in Headers */,
 				F8D67EDB1B7BB7DA00021BDF /* global.h in Headers */,
