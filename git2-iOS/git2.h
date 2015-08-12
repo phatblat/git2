@@ -1,12 +1,12 @@
 //
-//  git2-iOS.h
+//  git2.h
 //  git2-iOS
 //
 //  Created by Ben Chatelain on 8/12/15.
 //  Copyright © 2015 phatblat. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 //! Project version number for git2-iOS.
 FOUNDATION_EXPORT double git2_iOSVersionNumber;

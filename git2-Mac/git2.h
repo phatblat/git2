@@ -6,7 +6,7 @@
 //  Copyright © 2015 phatblat. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 //! Project version number for git2-Mac.
 FOUNDATION_EXPORT double git2_MacVersionNumber;

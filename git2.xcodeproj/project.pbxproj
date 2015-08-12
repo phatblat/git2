@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8D67E381B7BA85D00021BDF /* git2-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E371B7BA85D00021BDF /* git2-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8D67E471B7BAA4900021BDF /* git2-Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E461B7BAA4900021BDF /* git2-Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D67E381B7BA85D00021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E371B7BA85D00021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D67E471B7BAA4900021BDF /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E461B7BAA4900021BDF /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8D67E341B7BA85D00021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8D67E371B7BA85D00021BDF /* git2-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "git2-iOS.h"; sourceTree = "<group>"; };
+		F8D67E371B7BA85D00021BDF /* git2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = git2.h; sourceTree = "<group>"; };
 		F8D67E391B7BA85D00021BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8D67E441B7BAA4900021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8D67E461B7BAA4900021BDF /* git2-Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "git2-Mac.h"; sourceTree = "<group>"; };
+		F8D67E461B7BAA4900021BDF /* git2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = git2.h; sourceTree = "<group>"; };
 		F8D67E481B7BAA4900021BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +59,7 @@
 		F8D67E361B7BA85D00021BDF /* git2-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F8D67E371B7BA85D00021BDF /* git2-iOS.h */,
+				F8D67E371B7BA85D00021BDF /* git2.h */,
 				F8D67E391B7BA85D00021BDF /* Info.plist */,
 			);
 			path = "git2-iOS";
@@ -68,7 +68,7 @@
 		F8D67E451B7BAA4900021BDF /* git2-Mac */ = {
 			isa = PBXGroup;
 			children = (
-				F8D67E461B7BAA4900021BDF /* git2-Mac.h */,
+				F8D67E461B7BAA4900021BDF /* git2.h */,
 				F8D67E481B7BAA4900021BDF /* Info.plist */,
 			);
 			path = "git2-Mac";
@@ -81,7 +81,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D67E381B7BA85D00021BDF /* git2-iOS.h in Headers */,
+				F8D67E381B7BA85D00021BDF /* git2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D67E471B7BAA4900021BDF /* git2-Mac.h in Headers */,
+				F8D67E471B7BAA4900021BDF /* git2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
