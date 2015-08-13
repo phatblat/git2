@@ -855,6 +855,7 @@
 		F834885C1B7BFC9800A5B932 /* sys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sys; path = libgit2/include/git2/sys; sourceTree = "<group>"; };
 		F83488611B7BFDD400A5B932 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F83488641B7BFF7200A5B932 /* git2.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = git2.modulemap; sourceTree = "<group>"; };
+		F83488651B7D3DC300A5B932 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = script; sourceTree = "<group>"; };
 		F8D67E341B7BA85D00021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D67E441B7BAA4900021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D67E481B7BAA4900021BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1224,6 +1225,7 @@
 				F8D67E361B7BA85D00021BDF /* git2-iOS */,
 				F8D67E451B7BAA4900021BDF /* git2-Mac */,
 				F8D67E7B1B7BB78200021BDF /* libgit2 */,
+				F83488651B7D3DC300A5B932 /* script */,
 				F8D67E351B7BA85D00021BDF /* Products */,
 			);
 			sourceTree = "<group>";

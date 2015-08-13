@@ -1,0 +1,9 @@
+#
+# sparse-checkout file for libgit2 submodule
+#
+
+# Include everything by default
+/*
+
+# Excludes
+
