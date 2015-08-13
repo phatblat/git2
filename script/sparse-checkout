@@ -2,10 +2,21 @@
 # sparse-checkout file for libgit2 submodule
 #
 
+#
 # Include everything by default
+#
 /*
 
+#
 # Excludes
+#
+
+# Windows
 !include/git2/inttypes.h
 !include/git2/stdint.h
 !src/win32
+!src/hash/hash_win32.*
+
+# Files redefining 'entry' struct
+!src/xdiff/xpatience.c
+!src/indexer.c
