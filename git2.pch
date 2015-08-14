@@ -1,0 +1,6 @@
+//
+// git2.pch
+//
+
+// Definition is attempt to prevent inclusion of <SDKROOT>/usr/include/search.h
+#define _SEARCH_H_
