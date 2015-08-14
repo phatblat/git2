@@ -608,6 +608,7 @@
 		F8D67F331B7BB7E800021BDF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F261B7BB7E800021BDF /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67F341B7BB7E800021BDF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67F261B7BB7E800021BDF /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8F708CF1B7D579000F227F2 /* indexer.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F708CE1B7D579000F227F2 /* indexer.c */; };
+		F8F708D11B7DB5CB00F227F2 /* xpatience.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F708D01B7DB5CB00F227F2 /* xpatience.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -918,6 +919,7 @@
 		F8D67F251B7BB7E800021BDF /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = libgit2/include/git2/types.h; sourceTree = "<group>"; };
 		F8D67F261B7BB7E800021BDF /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = libgit2/include/git2/version.h; sourceTree = "<group>"; };
 		F8F708CE1B7D579000F227F2 /* indexer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = indexer.c; sourceTree = "<group>"; };
+		F8F708D01B7DB5CB00F227F2 /* xpatience.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xpatience.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1208,6 +1210,7 @@
 				F804C2171B7BF2CD00C40501 /* xinclude.h */,
 				F804C2181B7BF2CD00C40501 /* xmacros.h */,
 				F804C2191B7BF2CD00C40501 /* xmerge.c */,
+				F8F708D01B7DB5CB00F227F2 /* xpatience.c */,
 				F804C21B1B7BF2CD00C40501 /* xprepare.c */,
 				F804C21C1B7BF2CD00C40501 /* xprepare.h */,
 				F804C21D1B7BF2CD00C40501 /* xtypes.h */,
@@ -1863,6 +1866,7 @@
 				F804C3BC1B7BF2E000C40501 /* smart.c in Sources */,
 				F804C3361B7BF2D400C40501 /* pqueue.c in Sources */,
 				F804C3721B7BF2D800C40501 /* socket_stream.c in Sources */,
+				F8F708D11B7DB5CB00F227F2 /* xpatience.c in Sources */,
 				F804C3AC1B7BF2DE00C40501 /* auth_negotiate.c in Sources */,
 				F804C2581B7BF2CD00C40501 /* cherrypick.c in Sources */,
 				F804C2DE1B7BF2D000C40501 /* iterator.c in Sources */,
