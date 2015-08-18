@@ -484,7 +484,7 @@
 		F834882C1B7BF4D900A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
 		F834882D1B7BF4E100A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
 		F834885E1B7BFC9800A5B932 /* sys in Resources */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; };
-		F834885F1B7BFCA600A5B932 /* sys in Headers */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; settings = {ATTRIBUTES = (Private, ); }; };
+		F834885F1B7BFCA600A5B932 /* sys in Headers */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; settings = {ATTRIBUTES = (Public, ); }; };
 		F83488601B7BFD4500A5B932 /* sys in Headers */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; settings = {ATTRIBUTES = (Public, ); }; };
 		F834888F1B7D547D00A5B932 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = F834886B1B7D547D00A5B932 /* http_parser.c */; };
 		F83488901B7D547D00A5B932 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = F834886B1B7D547D00A5B932 /* http_parser.c */; };
