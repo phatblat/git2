@@ -493,8 +493,8 @@
 		F83488931B7D547D00A5B932 /* LICENSE-MIT in Resources */ = {isa = PBXBuildFile; fileRef = F834886D1B7D547D00A5B932 /* LICENSE-MIT */; };
 		F83488941B7D547D00A5B932 /* LICENSE-MIT in Resources */ = {isa = PBXBuildFile; fileRef = F834886D1B7D547D00A5B932 /* LICENSE-MIT */; };
 		F83488D21B7D55ED00A5B932 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F83488D11B7D55ED00A5B932 /* libz.tbd */; };
-		F8B37E0C1B83611C003CF5F7 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B37E0B1B83611C003CF5F7 /* git2.h */; };
-		F8B37E0E1B836122003CF5F7 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B37E0D1B836122003CF5F7 /* git2.h */; };
+		F8B37E0C1B83611C003CF5F7 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B37E0B1B83611C003CF5F7 /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B37E0E1B836122003CF5F7 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B37E0D1B836122003CF5F7 /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EB81B7BB7DA00021BDF /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E841B7BB7DA00021BDF /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EB91B7BB7DA00021BDF /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E841B7BB7DA00021BDF /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EBA1B7BB7DA00021BDF /* attr.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E851B7BB7DA00021BDF /* attr.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1380,6 +1380,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B37E0C1B83611C003CF5F7 /* git2.h in Headers */,
 				F804C3421B7BF2D500C40501 /* refdb.h in Headers */,
 				F804C4361B7BF2FB00C40501 /* xtypes.h in Headers */,
 				F804C3061B7BF2D200C40501 /* odb.h in Headers */,
@@ -1536,7 +1537,6 @@
 				F804C31C1B7BF2D300C40501 /* openssl_stream.h in Headers */,
 				F804C3821B7BF2D900C40501 /* stransport_stream.h in Headers */,
 				F8D67F2D1B7BB7E800021BDF /* transport.h in Headers */,
-				F8B37E0C1B83611C003CF5F7 /* git2.h in Headers */,
 				F804C3BE1B7BF2E000C40501 /* smart.h in Headers */,
 				F8D67F2F1B7BB7E800021BDF /* tree.h in Headers */,
 				F804C39A1B7BF2DC00C40501 /* thread-utils.h in Headers */,
@@ -1558,6 +1558,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B37E0E1B836122003CF5F7 /* git2.h in Headers */,
 				F83488601B7BFD4500A5B932 /* sys in Headers */,
 				F804C3431B7BF2D500C40501 /* refdb.h in Headers */,
 				F804C4371B7BF2FB00C40501 /* xtypes.h in Headers */,
@@ -1714,7 +1715,6 @@
 				F804C31D1B7BF2D300C40501 /* openssl_stream.h in Headers */,
 				F804C3831B7BF2D900C40501 /* stransport_stream.h in Headers */,
 				F8D67EFB1B7BB7DA00021BDF /* patch.h in Headers */,
-				F8B37E0E1B836122003CF5F7 /* git2.h in Headers */,
 				F804C3BF1B7BF2E000C40501 /* smart.h in Headers */,
 				F8D67F341B7BB7E800021BDF /* version.h in Headers */,
 				F804C39B1B7BF2DC00C40501 /* thread-utils.h in Headers */,
