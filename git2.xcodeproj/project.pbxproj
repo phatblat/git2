@@ -1251,13 +1251,12 @@
 		F8D67E2A1B7BA85D00021BDF = {
 			isa = PBXGroup;
 			children = (
-				F8F708D41B7DB98F00F227F2 /* libz.tbd */,
-				F83488D11B7D55ED00A5B932 /* libz.tbd */,
 				F83488641B7BFF7200A5B932 /* git2.modulemap */,
 				F8D67E361B7BA85D00021BDF /* git2-iOS */,
 				F8D67E451B7BAA4900021BDF /* git2-Mac */,
 				F8D67E7B1B7BB78200021BDF /* libgit2 */,
 				F83488651B7D3DC300A5B932 /* script */,
+				F8E3B7451B8685A40089F413 /* Frameworks */,
 				F8D67E351B7BA85D00021BDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1371,6 +1370,15 @@
 				F8D67F261B7BB7E800021BDF /* version.h */,
 			);
 			name = git2;
+			sourceTree = "<group>";
+		};
+		F8E3B7451B8685A40089F413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8F708D41B7DB98F00F227F2 /* libz.tbd */,
+				F83488D11B7D55ED00A5B932 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
