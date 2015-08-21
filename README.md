@@ -1,5 +1,7 @@
 # git2
 
+[![MIT license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/phatblat/git2/blob/master/LICENSE.md)
+
 An experiment of packaging up [libgit2](https://github.com/libgit2/libgit2) as a dynamic framework for iOS and Mac
 
 ## License
