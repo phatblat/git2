@@ -1,5 +1,6 @@
 # git2
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![MIT license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/phatblat/git2/blob/master/LICENSE.md)
 
 An experiment of packaging up [libgit2](https://github.com/libgit2/libgit2) as a dynamic framework for iOS and Mac
