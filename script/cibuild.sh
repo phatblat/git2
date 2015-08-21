@@ -8,6 +8,7 @@
 gem install xcode-install
 xcode-install list
 xcode-install install "7 beta 5"
+xcode-install select "7 beta 5"
 
 #carthage build --no-skip-current
 
