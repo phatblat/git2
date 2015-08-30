@@ -5,6 +5,6 @@
       location = "group:git2.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:libgit2">
+      location = "group:External/libgit2">
    </FileRef>
 </Workspace>
