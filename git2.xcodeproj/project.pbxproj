@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F81CC0121B93355800FA6C0F /* libssh2-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F81CC0151B93355800FA6C0F /* Build configuration list for PBXAggregateTarget "libssh2-iOS" */;
+			buildPhases = (
+				F81CC0161B93355E00FA6C0F /* libssh2-iOS */,
+			);
+			dependencies = (
+			);
+			name = "libssh2-iOS";
+			productName = libssh2;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		F804C2221B7BF2CD00C40501 /* annotated_commit.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C10E1B7BF2CC00C40501 /* annotated_commit.c */; };
 		F804C2231B7BF2CD00C40501 /* annotated_commit.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C10E1B7BF2CC00C40501 /* annotated_commit.c */; };
@@ -619,6 +633,16 @@
 		F8F708D31B7DB96F00F227F2 /* xpatience.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F708D01B7DB5CB00F227F2 /* xpatience.c */; };
 		F8F708D51B7DB98F00F227F2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F708D41B7DB98F00F227F2 /* libz.tbd */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F81CC0171B9335C500FA6C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D67E2B1B7BA85D00021BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81CC0121B93355800FA6C0F;
+			remoteInfo = "libssh2-iOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F804C10E1B7BF2CC00C40501 /* annotated_commit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = annotated_commit.c; sourceTree = "<group>"; };
@@ -1771,6 +1795,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F81CC0181B9335C500FA6C0F /* PBXTargetDependency */,
 			);
 			name = "git2-iOS";
 			productName = "git2-iOS";
@@ -1804,6 +1829,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = phatblat;
 				TargetAttributes = {
+					F81CC0121B93355800FA6C0F = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					F8D67E331B7BA85D00021BDF = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -1826,6 +1854,7 @@
 			targets = (
 				F8D67E331B7BA85D00021BDF /* git2-iOS */,
 				F8D67E431B7BAA4900021BDF /* git2-Mac */,
+				F81CC0121B93355800FA6C0F /* libssh2-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1849,6 +1878,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F81CC0161B93355E00FA6C0F /* libssh2-iOS */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "libssh2-iOS";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = script/update_libssh2_ios;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8D67E2F1B7BA85D00021BDF /* Sources */ = {
@@ -2127,7 +2173,29 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F81CC0181B9335C500FA6C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81CC0121B93355800FA6C0F /* libssh2-iOS */;
+			targetProxy = F81CC0171B9335C500FA6C0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		F81CC0131B93355800FA6C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F81CC0141B93355800FA6C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F8D67E3A1B7BA85D00021BDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2333,6 +2401,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F81CC0151B93355800FA6C0F /* Build configuration list for PBXAggregateTarget "libssh2-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81CC0131B93355800FA6C0F /* Debug */,
+				F81CC0141B93355800FA6C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F8D67E2E1B7BA85D00021BDF /* Build configuration list for PBXProject "git2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
