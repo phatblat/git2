@@ -14,6 +14,7 @@
 				F81CC0161B93355E00FA6C0F /* libssh2-iOS */,
 			);
 			dependencies = (
+				F81CC01F1B933B3900FA6C0F /* PBXTargetDependency */,
 			);
 			name = "libssh2-iOS";
 			productName = libssh2;
@@ -652,6 +653,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = F81CC0121B93355800FA6C0F;
 			remoteInfo = "libssh2-iOS";
+		};
+		F81CC01E1B933B3900FA6C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D67E2B1B7BA85D00021BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81CC0191B933A5100FA6C0F;
+			remoteInfo = "OpenSSL-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -2208,6 +2216,11 @@
 			target = F81CC0121B93355800FA6C0F /* libssh2-iOS */;
 			targetProxy = F81CC0171B9335C500FA6C0F /* PBXContainerItemProxy */;
 		};
+		F81CC01F1B933B3900FA6C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81CC0191B933A5100FA6C0F /* OpenSSL-iOS */;
+			targetProxy = F81CC01E1B933B3900FA6C0F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -2460,6 +2473,7 @@
 				F81CC01B1B933A5100FA6C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8D67E2E1B7BA85D00021BDF /* Build configuration list for PBXProject "git2" */ = {
 			isa = XCConfigurationList;
