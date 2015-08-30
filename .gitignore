@@ -6,3 +6,4 @@ xcuserdata
 Carthage
 build
 External/libssh2-ios
+External/ios-openssl
