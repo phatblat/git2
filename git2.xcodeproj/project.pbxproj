@@ -18,6 +18,17 @@
 			name = "libssh2-iOS";
 			productName = libssh2;
 		};
+		F81CC0191B933A5100FA6C0F /* OpenSSL-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F81CC01C1B933A5100FA6C0F /* Build configuration list for PBXAggregateTarget "OpenSSL-iOS" */;
+			buildPhases = (
+				F81CC01D1B933A5600FA6C0F /* OpenSSL-iOS */,
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-iOS";
+			productName = "OpenSSL-iOS";
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
@@ -1832,6 +1843,9 @@
 					F81CC0121B93355800FA6C0F = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					F81CC0191B933A5100FA6C0F = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					F8D67E331B7BA85D00021BDF = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -1855,6 +1869,7 @@
 				F8D67E331B7BA85D00021BDF /* git2-iOS */,
 				F8D67E431B7BAA4900021BDF /* git2-Mac */,
 				F81CC0121B93355800FA6C0F /* libssh2-iOS */,
+				F81CC0191B933A5100FA6C0F /* OpenSSL-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1893,6 +1908,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = script/update_libssh2_ios;
+		};
+		F81CC01D1B933A5600FA6C0F /* OpenSSL-iOS */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "OpenSSL-iOS";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = script/update_libssl_ios;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2196,6 +2225,20 @@
 			};
 			name = Release;
 		};
+		F81CC01A1B933A5100FA6C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F81CC01B1B933A5100FA6C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F8D67E3A1B7BA85D00021BDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2406,6 +2449,15 @@
 			buildConfigurations = (
 				F81CC0131B93355800FA6C0F /* Debug */,
 				F81CC0141B93355800FA6C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81CC01C1B933A5100FA6C0F /* Build configuration list for PBXAggregateTarget "OpenSSL-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81CC01A1B933A5100FA6C0F /* Debug */,
+				F81CC01B1B933A5100FA6C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
