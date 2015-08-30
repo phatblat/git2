@@ -481,6 +481,10 @@
 		F804C43D1B7BF2FD00C40501 /* zstream.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C2201B7BF2CD00C40501 /* zstream.c */; };
 		F804C43E1B7BF2FD00C40501 /* zstream.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C2211B7BF2CD00C40501 /* zstream.h */; };
 		F804C43F1B7BF2FD00C40501 /* zstream.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C2211B7BF2CD00C40501 /* zstream.h */; };
+		F82FC7331B87CBBD000F2896 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82FC7321B87CBBD000F2896 /* Security.framework */; };
+		F82FC7351B87CBD6000F2896 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82FC7341B87CBD6000F2896 /* CoreFoundation.framework */; };
+		F82FC7371B87CC05000F2896 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82FC7361B87CC05000F2896 /* Security.framework */; };
+		F82FC7391B87CC0A000F2896 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82FC7381B87CC0A000F2896 /* CoreFoundation.framework */; };
 		F834882C1B7BF4D900A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
 		F834882D1B7BF4E100A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
 		F834885E1B7BFC9800A5B932 /* sys in Resources */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; };
@@ -854,6 +858,10 @@
 		F804C21F1B7BF2CD00C40501 /* xutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xutils.h; sourceTree = "<group>"; };
 		F804C2201B7BF2CD00C40501 /* zstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstream.c; sourceTree = "<group>"; };
 		F804C2211B7BF2CD00C40501 /* zstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstream.h; sourceTree = "<group>"; };
+		F82FC7321B87CBBD000F2896 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F82FC7341B87CBD6000F2896 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F82FC7361B87CC05000F2896 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		F82FC7381B87CC0A000F2896 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		F834885C1B7BFC9800A5B932 /* sys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sys; path = libgit2/include/git2/sys; sourceTree = "<group>"; };
 		F83488611B7BFDD400A5B932 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F83488641B7BFF7200A5B932 /* git2.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = git2.modulemap; sourceTree = "<group>"; };
@@ -935,6 +943,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82FC7351B87CBD6000F2896 /* CoreFoundation.framework in Frameworks */,
+				F82FC7331B87CBBD000F2896 /* Security.framework in Frameworks */,
 				F83488D21B7D55ED00A5B932 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -943,6 +953,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82FC7391B87CC0A000F2896 /* CoreFoundation.framework in Frameworks */,
+				F82FC7371B87CC05000F2896 /* Security.framework in Frameworks */,
 				F8F708D51B7DB98F00F227F2 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1375,6 +1387,10 @@
 		F8E3B7451B8685A40089F413 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F82FC7381B87CC0A000F2896 /* CoreFoundation.framework */,
+				F82FC7361B87CC05000F2896 /* Security.framework */,
+				F82FC7341B87CBD6000F2896 /* CoreFoundation.framework */,
+				F82FC7321B87CBBD000F2896 /* Security.framework */,
 				F8F708D41B7DB98F00F227F2 /* libz.tbd */,
 				F83488D11B7D55ED00A5B932 /* libz.tbd */,
 			);
@@ -2149,7 +2165,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2191,7 +2207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2210,6 +2226,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"GIT_SECURE_TRANSPORT=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libgit2/include",
 					"$(SRCROOT)/libgit2/src",
@@ -2232,6 +2252,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"GIT_SECURE_TRANSPORT=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libgit2/include",
 					"$(SRCROOT)/libgit2/src",
@@ -2256,6 +2280,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"GIT_SECURE_TRANSPORT=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libgit2/include",
 					"$(SRCROOT)/libgit2/src",
@@ -2282,6 +2310,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"GIT_SECURE_TRANSPORT=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libgit2/include",
 					"$(SRCROOT)/libgit2/src",
