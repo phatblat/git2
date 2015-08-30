@@ -886,7 +886,7 @@
 		F82FC7341B87CBD6000F2896 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		F82FC7361B87CC05000F2896 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		F82FC7381B87CC0A000F2896 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		F834885C1B7BFC9800A5B932 /* sys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sys; path = libgit2/include/git2/sys; sourceTree = "<group>"; };
+		F834885C1B7BFC9800A5B932 /* sys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sys; path = External/libgit2/include/git2/sys; sourceTree = "<group>"; };
 		F83488611B7BFDD400A5B932 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F83488641B7BFF7200A5B932 /* git2.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = git2.modulemap; sourceTree = "<group>"; };
 		F83488651B7D3DC300A5B932 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = script; sourceTree = "<group>"; };
@@ -899,64 +899,64 @@
 		F8D67E341B7BA85D00021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D67E441B7BAA4900021BDF /* git2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = git2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D67E481B7BAA4900021BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8D67E7E1B7BB79E00021BDF /* git2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = git2.h; path = libgit2/include/git2.h; sourceTree = "<group>"; };
-		F8D67E841B7BB7DA00021BDF /* annotated_commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = annotated_commit.h; path = libgit2/include/git2/annotated_commit.h; sourceTree = "<group>"; };
-		F8D67E851B7BB7DA00021BDF /* attr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = attr.h; path = libgit2/include/git2/attr.h; sourceTree = "<group>"; };
-		F8D67E861B7BB7DA00021BDF /* blame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blame.h; path = libgit2/include/git2/blame.h; sourceTree = "<group>"; };
-		F8D67E871B7BB7DA00021BDF /* blob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blob.h; path = libgit2/include/git2/blob.h; sourceTree = "<group>"; };
-		F8D67E881B7BB7DA00021BDF /* branch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = branch.h; path = libgit2/include/git2/branch.h; sourceTree = "<group>"; };
-		F8D67E891B7BB7DA00021BDF /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = libgit2/include/git2/buffer.h; sourceTree = "<group>"; };
-		F8D67E8A1B7BB7DA00021BDF /* checkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checkout.h; path = libgit2/include/git2/checkout.h; sourceTree = "<group>"; };
-		F8D67E8B1B7BB7DA00021BDF /* cherrypick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cherrypick.h; path = libgit2/include/git2/cherrypick.h; sourceTree = "<group>"; };
-		F8D67E8C1B7BB7DA00021BDF /* clone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clone.h; path = libgit2/include/git2/clone.h; sourceTree = "<group>"; };
-		F8D67E8D1B7BB7DA00021BDF /* commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commit.h; path = libgit2/include/git2/commit.h; sourceTree = "<group>"; };
-		F8D67E8E1B7BB7DA00021BDF /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = libgit2/include/git2/common.h; sourceTree = "<group>"; };
-		F8D67E8F1B7BB7DA00021BDF /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = libgit2/include/git2/config.h; sourceTree = "<group>"; };
-		F8D67E901B7BB7DA00021BDF /* cred_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cred_helpers.h; path = libgit2/include/git2/cred_helpers.h; sourceTree = "<group>"; };
-		F8D67E911B7BB7DA00021BDF /* describe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = describe.h; path = libgit2/include/git2/describe.h; sourceTree = "<group>"; };
-		F8D67E921B7BB7DA00021BDF /* diff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diff.h; path = libgit2/include/git2/diff.h; sourceTree = "<group>"; };
-		F8D67E931B7BB7DA00021BDF /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = errors.h; path = libgit2/include/git2/errors.h; sourceTree = "<group>"; };
-		F8D67E941B7BB7DA00021BDF /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filter.h; path = libgit2/include/git2/filter.h; sourceTree = "<group>"; };
-		F8D67E951B7BB7DA00021BDF /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = global.h; path = libgit2/include/git2/global.h; sourceTree = "<group>"; };
-		F8D67E961B7BB7DA00021BDF /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graph.h; path = libgit2/include/git2/graph.h; sourceTree = "<group>"; };
-		F8D67E971B7BB7DA00021BDF /* ignore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ignore.h; path = libgit2/include/git2/ignore.h; sourceTree = "<group>"; };
-		F8D67E981B7BB7DA00021BDF /* index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = index.h; path = libgit2/include/git2/index.h; sourceTree = "<group>"; };
-		F8D67E991B7BB7DA00021BDF /* indexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = indexer.h; path = libgit2/include/git2/indexer.h; sourceTree = "<group>"; };
-		F8D67E9B1B7BB7DA00021BDF /* merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = merge.h; path = libgit2/include/git2/merge.h; sourceTree = "<group>"; };
-		F8D67E9C1B7BB7DA00021BDF /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = message.h; path = libgit2/include/git2/message.h; sourceTree = "<group>"; };
-		F8D67E9D1B7BB7DA00021BDF /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = net.h; path = libgit2/include/git2/net.h; sourceTree = "<group>"; };
-		F8D67E9E1B7BB7DA00021BDF /* notes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notes.h; path = libgit2/include/git2/notes.h; sourceTree = "<group>"; };
-		F8D67E9F1B7BB7DA00021BDF /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = libgit2/include/git2/object.h; sourceTree = "<group>"; };
-		F8D67EA01B7BB7DA00021BDF /* odb_backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = odb_backend.h; path = libgit2/include/git2/odb_backend.h; sourceTree = "<group>"; };
-		F8D67EA11B7BB7DA00021BDF /* odb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = odb.h; path = libgit2/include/git2/odb.h; sourceTree = "<group>"; };
-		F8D67EA21B7BB7DA00021BDF /* oid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oid.h; path = libgit2/include/git2/oid.h; sourceTree = "<group>"; };
-		F8D67EA31B7BB7DA00021BDF /* oidarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oidarray.h; path = libgit2/include/git2/oidarray.h; sourceTree = "<group>"; };
-		F8D67EA41B7BB7DA00021BDF /* pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pack.h; path = libgit2/include/git2/pack.h; sourceTree = "<group>"; };
-		F8D67EA51B7BB7DA00021BDF /* patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = patch.h; path = libgit2/include/git2/patch.h; sourceTree = "<group>"; };
-		F8D67EA61B7BB7DA00021BDF /* pathspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pathspec.h; path = libgit2/include/git2/pathspec.h; sourceTree = "<group>"; };
-		F8D67EA71B7BB7DA00021BDF /* rebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rebase.h; path = libgit2/include/git2/rebase.h; sourceTree = "<group>"; };
-		F8D67EA81B7BB7DA00021BDF /* refdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = refdb.h; path = libgit2/include/git2/refdb.h; sourceTree = "<group>"; };
-		F8D67EA91B7BB7DA00021BDF /* reflog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reflog.h; path = libgit2/include/git2/reflog.h; sourceTree = "<group>"; };
-		F8D67EAA1B7BB7DA00021BDF /* refs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = refs.h; path = libgit2/include/git2/refs.h; sourceTree = "<group>"; };
-		F8D67EAB1B7BB7DA00021BDF /* refspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = refspec.h; path = libgit2/include/git2/refspec.h; sourceTree = "<group>"; };
-		F8D67EAC1B7BB7DA00021BDF /* remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = remote.h; path = libgit2/include/git2/remote.h; sourceTree = "<group>"; };
-		F8D67EAD1B7BB7DA00021BDF /* repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = repository.h; path = libgit2/include/git2/repository.h; sourceTree = "<group>"; };
-		F8D67EAE1B7BB7DA00021BDF /* reset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reset.h; path = libgit2/include/git2/reset.h; sourceTree = "<group>"; };
-		F8D67EAF1B7BB7DA00021BDF /* revert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = revert.h; path = libgit2/include/git2/revert.h; sourceTree = "<group>"; };
-		F8D67EB01B7BB7DA00021BDF /* revparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = revparse.h; path = libgit2/include/git2/revparse.h; sourceTree = "<group>"; };
-		F8D67EB11B7BB7DA00021BDF /* revwalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = revwalk.h; path = libgit2/include/git2/revwalk.h; sourceTree = "<group>"; };
-		F8D67EB21B7BB7DA00021BDF /* signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = signature.h; path = libgit2/include/git2/signature.h; sourceTree = "<group>"; };
-		F8D67EB31B7BB7DA00021BDF /* stash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stash.h; path = libgit2/include/git2/stash.h; sourceTree = "<group>"; };
-		F8D67EB41B7BB7DA00021BDF /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = status.h; path = libgit2/include/git2/status.h; sourceTree = "<group>"; };
-		F8D67EB61B7BB7DA00021BDF /* strarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strarray.h; path = libgit2/include/git2/strarray.h; sourceTree = "<group>"; };
-		F8D67EB71B7BB7DA00021BDF /* submodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = submodule.h; path = libgit2/include/git2/submodule.h; sourceTree = "<group>"; };
-		F8D67F201B7BB7E800021BDF /* tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tag.h; path = libgit2/include/git2/tag.h; sourceTree = "<group>"; };
-		F8D67F211B7BB7E800021BDF /* trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trace.h; path = libgit2/include/git2/trace.h; sourceTree = "<group>"; };
-		F8D67F221B7BB7E800021BDF /* transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transaction.h; path = libgit2/include/git2/transaction.h; sourceTree = "<group>"; };
-		F8D67F231B7BB7E800021BDF /* transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transport.h; path = libgit2/include/git2/transport.h; sourceTree = "<group>"; };
-		F8D67F241B7BB7E800021BDF /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tree.h; path = libgit2/include/git2/tree.h; sourceTree = "<group>"; };
-		F8D67F251B7BB7E800021BDF /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = libgit2/include/git2/types.h; sourceTree = "<group>"; };
-		F8D67F261B7BB7E800021BDF /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = libgit2/include/git2/version.h; sourceTree = "<group>"; };
+		F8D67E7E1B7BB79E00021BDF /* git2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = git2.h; path = External/libgit2/include/git2.h; sourceTree = "<group>"; };
+		F8D67E841B7BB7DA00021BDF /* annotated_commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = annotated_commit.h; path = External/libgit2/include/git2/annotated_commit.h; sourceTree = "<group>"; };
+		F8D67E851B7BB7DA00021BDF /* attr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = attr.h; path = External/libgit2/include/git2/attr.h; sourceTree = "<group>"; };
+		F8D67E861B7BB7DA00021BDF /* blame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blame.h; path = External/libgit2/include/git2/blame.h; sourceTree = "<group>"; };
+		F8D67E871B7BB7DA00021BDF /* blob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blob.h; path = External/libgit2/include/git2/blob.h; sourceTree = "<group>"; };
+		F8D67E881B7BB7DA00021BDF /* branch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = branch.h; path = External/libgit2/include/git2/branch.h; sourceTree = "<group>"; };
+		F8D67E891B7BB7DA00021BDF /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = External/libgit2/include/git2/buffer.h; sourceTree = "<group>"; };
+		F8D67E8A1B7BB7DA00021BDF /* checkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checkout.h; path = External/libgit2/include/git2/checkout.h; sourceTree = "<group>"; };
+		F8D67E8B1B7BB7DA00021BDF /* cherrypick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cherrypick.h; path = External/libgit2/include/git2/cherrypick.h; sourceTree = "<group>"; };
+		F8D67E8C1B7BB7DA00021BDF /* clone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clone.h; path = External/libgit2/include/git2/clone.h; sourceTree = "<group>"; };
+		F8D67E8D1B7BB7DA00021BDF /* commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commit.h; path = External/libgit2/include/git2/commit.h; sourceTree = "<group>"; };
+		F8D67E8E1B7BB7DA00021BDF /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = External/libgit2/include/git2/common.h; sourceTree = "<group>"; };
+		F8D67E8F1B7BB7DA00021BDF /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = External/libgit2/include/git2/config.h; sourceTree = "<group>"; };
+		F8D67E901B7BB7DA00021BDF /* cred_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cred_helpers.h; path = External/libgit2/include/git2/cred_helpers.h; sourceTree = "<group>"; };
+		F8D67E911B7BB7DA00021BDF /* describe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = describe.h; path = External/libgit2/include/git2/describe.h; sourceTree = "<group>"; };
+		F8D67E921B7BB7DA00021BDF /* diff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diff.h; path = External/libgit2/include/git2/diff.h; sourceTree = "<group>"; };
+		F8D67E931B7BB7DA00021BDF /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = errors.h; path = External/libgit2/include/git2/errors.h; sourceTree = "<group>"; };
+		F8D67E941B7BB7DA00021BDF /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filter.h; path = External/libgit2/include/git2/filter.h; sourceTree = "<group>"; };
+		F8D67E951B7BB7DA00021BDF /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = global.h; path = External/libgit2/include/git2/global.h; sourceTree = "<group>"; };
+		F8D67E961B7BB7DA00021BDF /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graph.h; path = External/libgit2/include/git2/graph.h; sourceTree = "<group>"; };
+		F8D67E971B7BB7DA00021BDF /* ignore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ignore.h; path = External/libgit2/include/git2/ignore.h; sourceTree = "<group>"; };
+		F8D67E981B7BB7DA00021BDF /* index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = index.h; path = External/libgit2/include/git2/index.h; sourceTree = "<group>"; };
+		F8D67E991B7BB7DA00021BDF /* indexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = indexer.h; path = External/libgit2/include/git2/indexer.h; sourceTree = "<group>"; };
+		F8D67E9B1B7BB7DA00021BDF /* merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = merge.h; path = External/libgit2/include/git2/merge.h; sourceTree = "<group>"; };
+		F8D67E9C1B7BB7DA00021BDF /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = message.h; path = External/libgit2/include/git2/message.h; sourceTree = "<group>"; };
+		F8D67E9D1B7BB7DA00021BDF /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = net.h; path = External/libgit2/include/git2/net.h; sourceTree = "<group>"; };
+		F8D67E9E1B7BB7DA00021BDF /* notes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notes.h; path = External/libgit2/include/git2/notes.h; sourceTree = "<group>"; };
+		F8D67E9F1B7BB7DA00021BDF /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = External/libgit2/include/git2/object.h; sourceTree = "<group>"; };
+		F8D67EA01B7BB7DA00021BDF /* odb_backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = odb_backend.h; path = External/libgit2/include/git2/odb_backend.h; sourceTree = "<group>"; };
+		F8D67EA11B7BB7DA00021BDF /* odb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = odb.h; path = External/libgit2/include/git2/odb.h; sourceTree = "<group>"; };
+		F8D67EA21B7BB7DA00021BDF /* oid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oid.h; path = External/libgit2/include/git2/oid.h; sourceTree = "<group>"; };
+		F8D67EA31B7BB7DA00021BDF /* oidarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oidarray.h; path = External/libgit2/include/git2/oidarray.h; sourceTree = "<group>"; };
+		F8D67EA41B7BB7DA00021BDF /* pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pack.h; path = External/libgit2/include/git2/pack.h; sourceTree = "<group>"; };
+		F8D67EA51B7BB7DA00021BDF /* patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = patch.h; path = External/libgit2/include/git2/patch.h; sourceTree = "<group>"; };
+		F8D67EA61B7BB7DA00021BDF /* pathspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pathspec.h; path = External/libgit2/include/git2/pathspec.h; sourceTree = "<group>"; };
+		F8D67EA71B7BB7DA00021BDF /* rebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rebase.h; path = External/libgit2/include/git2/rebase.h; sourceTree = "<group>"; };
+		F8D67EA81B7BB7DA00021BDF /* refdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = refdb.h; path = External/libgit2/include/git2/refdb.h; sourceTree = "<group>"; };
+		F8D67EA91B7BB7DA00021BDF /* reflog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reflog.h; path = External/libgit2/include/git2/reflog.h; sourceTree = "<group>"; };
+		F8D67EAA1B7BB7DA00021BDF /* refs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = refs.h; path = External/libgit2/include/git2/refs.h; sourceTree = "<group>"; };
+		F8D67EAB1B7BB7DA00021BDF /* refspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = refspec.h; path = External/libgit2/include/git2/refspec.h; sourceTree = "<group>"; };
+		F8D67EAC1B7BB7DA00021BDF /* remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = remote.h; path = External/libgit2/include/git2/remote.h; sourceTree = "<group>"; };
+		F8D67EAD1B7BB7DA00021BDF /* repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = repository.h; path = External/libgit2/include/git2/repository.h; sourceTree = "<group>"; };
+		F8D67EAE1B7BB7DA00021BDF /* reset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reset.h; path = External/libgit2/include/git2/reset.h; sourceTree = "<group>"; };
+		F8D67EAF1B7BB7DA00021BDF /* revert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = revert.h; path = External/libgit2/include/git2/revert.h; sourceTree = "<group>"; };
+		F8D67EB01B7BB7DA00021BDF /* revparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = revparse.h; path = External/libgit2/include/git2/revparse.h; sourceTree = "<group>"; };
+		F8D67EB11B7BB7DA00021BDF /* revwalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = revwalk.h; path = External/libgit2/include/git2/revwalk.h; sourceTree = "<group>"; };
+		F8D67EB21B7BB7DA00021BDF /* signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = signature.h; path = External/libgit2/include/git2/signature.h; sourceTree = "<group>"; };
+		F8D67EB31B7BB7DA00021BDF /* stash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stash.h; path = External/libgit2/include/git2/stash.h; sourceTree = "<group>"; };
+		F8D67EB41B7BB7DA00021BDF /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = status.h; path = External/libgit2/include/git2/status.h; sourceTree = "<group>"; };
+		F8D67EB61B7BB7DA00021BDF /* strarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strarray.h; path = External/libgit2/include/git2/strarray.h; sourceTree = "<group>"; };
+		F8D67EB71B7BB7DA00021BDF /* submodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = submodule.h; path = External/libgit2/include/git2/submodule.h; sourceTree = "<group>"; };
+		F8D67F201B7BB7E800021BDF /* tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tag.h; path = External/libgit2/include/git2/tag.h; sourceTree = "<group>"; };
+		F8D67F211B7BB7E800021BDF /* trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trace.h; path = External/libgit2/include/git2/trace.h; sourceTree = "<group>"; };
+		F8D67F221B7BB7E800021BDF /* transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transaction.h; path = External/libgit2/include/git2/transaction.h; sourceTree = "<group>"; };
+		F8D67F231B7BB7E800021BDF /* transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transport.h; path = External/libgit2/include/git2/transport.h; sourceTree = "<group>"; };
+		F8D67F241B7BB7E800021BDF /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tree.h; path = External/libgit2/include/git2/tree.h; sourceTree = "<group>"; };
+		F8D67F251B7BB7E800021BDF /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = External/libgit2/include/git2/types.h; sourceTree = "<group>"; };
+		F8D67F261B7BB7E800021BDF /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = External/libgit2/include/git2/version.h; sourceTree = "<group>"; };
 		F8F708CE1B7D579000F227F2 /* indexer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = indexer.c; sourceTree = "<group>"; };
 		F8F708D01B7DB5CB00F227F2 /* xpatience.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xpatience.c; sourceTree = "<group>"; };
 		F8F708D41B7DB98F00F227F2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
@@ -1196,7 +1196,7 @@
 				F804C2211B7BF2CD00C40501 /* zstream.h */,
 			);
 			name = src;
-			path = libgit2/src;
+			path = External/libgit2/src;
 			sourceTree = "<group>";
 		};
 		F804C15C1B7BF2CC00C40501 /* hash */ = {
@@ -1271,7 +1271,7 @@
 				F834886A1B7D547D00A5B932 /* http-parser */,
 			);
 			name = deps;
-			path = libgit2/deps;
+			path = External/libgit2/deps;
 			sourceTree = "<group>";
 		};
 		F834886A1B7D547D00A5B932 /* http-parser */ = {
@@ -2299,8 +2299,8 @@
 					"GIT_SECURE_TRANSPORT=1",
 				);
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libgit2/include",
-					"$(SRCROOT)/libgit2/src",
+					"$(SRCROOT)/External/libgit2/include",
+					"$(SRCROOT)/External/libgit2/src",
 				);
 				INFOPLIST_FILE = "git2-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2325,8 +2325,8 @@
 					"GIT_SECURE_TRANSPORT=1",
 				);
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libgit2/include",
-					"$(SRCROOT)/libgit2/src",
+					"$(SRCROOT)/External/libgit2/include",
+					"$(SRCROOT)/External/libgit2/src",
 				);
 				INFOPLIST_FILE = "git2-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2353,8 +2353,8 @@
 					"GIT_SECURE_TRANSPORT=1",
 				);
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libgit2/include",
-					"$(SRCROOT)/libgit2/src",
+					"$(SRCROOT)/External/libgit2/include",
+					"$(SRCROOT)/External/libgit2/src",
 				);
 				INFOPLIST_FILE = "git2-Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2383,8 +2383,8 @@
 					"GIT_SECURE_TRANSPORT=1",
 				);
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libgit2/include",
-					"$(SRCROOT)/libgit2/src",
+					"$(SRCROOT)/External/libgit2/include",
+					"$(SRCROOT)/External/libgit2/src",
 				);
 				INFOPLIST_FILE = "git2-Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
